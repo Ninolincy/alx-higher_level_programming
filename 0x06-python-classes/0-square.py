@@ -2,6 +2,6 @@
 '''Define a square'''
 
 
-class square:
+class Square:
     '''represent a square'''
     pass
