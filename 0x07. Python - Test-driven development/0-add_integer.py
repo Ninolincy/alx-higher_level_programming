@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-'''
-Define an integer addition function
+'''Define an integer addition function
 Float are typecast to int before addidtion
 '''
 
