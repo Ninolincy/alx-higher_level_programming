@@ -1,0 +1,19 @@
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+>>> BaseGeometry.integer_validator("distance", 12)
+
+>>> BaseGeometry.integer_validator("alx", 0)
+Traceback (most recent call last):
+ValueError: alx must be greater than 0
+
+>>> BaseGeometry.integer_validator("fix", -7)
+Traceback (most recent call last):
+ValueError: fix must be greater than 0
+
+>>> BaseGeometry.integer_validator("hard", 1.2)
+Traceback (most recent call last):
+TypeError: hard must be an integer
+
+>>> BaseGeometry.integer_validator("me", 8)
+Traceback (most recent call last):
+TypeError: me must be an integer
