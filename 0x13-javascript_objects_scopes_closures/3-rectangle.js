@@ -21,3 +21,5 @@ print() {
         
     }
 }
+
+module.exports = Rectangle;
