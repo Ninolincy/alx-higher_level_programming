@@ -3,6 +3,6 @@
 --  id = 89
 --  name = Best School
 INSERT INTO first_table (
-    id = 89,
+    id = "89",
     name = "Best School"
 )
