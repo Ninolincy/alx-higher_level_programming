@@ -1,4 +1,3 @@
-#!/usr/bin/python3
-#script that takes in a URL, sends a request to that URL, and displays the size of the body of the response
-
-(curl -sI "$url" | grep -i Content-Length | awk '{print $2}')
+#!/usr/bin/bash
+# Takes URL, sends a request to it, display body size of the response
+(curl - sI "$url" | grep - i "Content-Length" | awk '{print $2}')
